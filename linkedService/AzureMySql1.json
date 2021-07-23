@@ -1,0 +1,19 @@
+{
+	"name": "AzureMySql1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMySql",
+		"typeProperties": {
+			"connectionString": "Server=jalabootcamp-db-mysql-01.mysql.database.azure.com;Port=3306;Database=testdb;UID=azure@jalabootcamp-db-mysql-01;SSLMode=1;UseSystemTrustStore=0",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "DFKey01",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "jalabootcamp-mysql-db-secret-01"
+			}
+		}
+	}
+}

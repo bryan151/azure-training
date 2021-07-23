@@ -1,0 +1,15 @@
+{
+	"name": "jalabootcampdatafactory01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "a98c546b-fd85-42c1-8c86-62e4126678f3",
+		"tenantId": "1f9b1311-c757-4228-b0e2-7d4ade7932aa",
+		"userAssignedIdentities": {
+			"/subscriptions/353bed53-228f-4f11-a8be-0b92bd55bdc3/resourcegroups/jalabootcamp-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/jalabootcampManageIdentity01": {
+				"clientId": "453a8aeb-dcc7-4215-b24c-e8d7842d47c6",
+				"principalId": "2e25a13d-9b17-438d-a312-b6a6e514ce20"
+			}
+		}
+	}
+}

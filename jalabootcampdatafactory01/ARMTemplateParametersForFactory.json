@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "jalabootcampdatafactory01"
+		},
+		"AzureMySql1_connectionString": {
+			"value": ""
+		},
+		"AzureTableStorage1_connectionString": {
+			"value": ""
+		},
+		"CosmosDb1_connectionString": {
+			"value": ""
+		},
+		"DFKey01_properties_typeProperties_baseUrl": {
+			"value": "https://jalabootcamp-secret-01.vault.azure.net/"
+		},
+		"SWAPI service_properties_typeProperties_url": {
+			"value": "https://swapi.dev/api/people"
+		}
+	}
+}
